@@ -1,0 +1,43 @@
+body { margin: 0px; padding: 0px; font-family:"Lucida Grande",Arial,Helvetica,Verdana,sans-serif; overflow:hidden; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0,0,0,0.1); }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,select,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+input, select { vertical-align: baseline; }
+textarea { font-family: "Lucida Grande", Arial, Helvetica, Verdana, sans-serif; }
+input[type=text],input[type=password],textarea { background: #fff; color: #000; font-size: 12px; }
+label { cursor:pointer; }
+table { border-collapse: collapse; border-spacing: 0; font-size: 100%;}
+fieldset,img { border: 0; }
+address,caption,cite,code,dfn,em,th,var { font-style: normal; font-weight: normal; }
+strong { font-weight: bold; font-style: normal; }
+em { font-weight: normal; font-style: italic; }
+ul { list-style: none; }
+.clear { clear:both; line-height:0; font-size:0; }
+.clearit:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearit { zoom:1; }
+.rr { float:right; }
+.ll { float:left;  margin:0 10px 0 0; }
+
+span.plus_wrapper { display:inline-block; line-height:100%; position:relative; padding:0 10px; }
+span.ico_plus { /*display:block; width:27px;height:27px; position:absolute; bottom: -2px; right:-2px; background:url('ico_plus.png') no-repeat;*/ }
+span.ico_plus_black { display:block; width:22px;height:22px; position:absolute; bottom:15px; right:30px; background:url('ico_plus_black.png') no-repeat; }
+
+small.grey { font-size:12px; color:#CCC; }
+
+a:link, a:active, a:visited { text-decoration: none; color: #21759B; }
+a:hover { text-decoration: none; color: #02A3FB; }
+
+div.goodiesBox { width:100%; height:145px; overflow:hidden; position:relative; margin:0;}
+
+div.goodiesBox span.image { display:block; overflow:hidden; position:absolute; }
+div.goodiesBox span.image img.noBorder { max-width:1024px; }
+div.goodiesBox span.overlayBottom { display:block; position:absolute; bottom:0; height:30px; width:100%; background:url('focus_overlay.png') bottom repeat-x; }
+div.goodiesBox span.overlayTop { display:block; position:absolute; top:0; height:30px; width:100%; background:url('focus_overlay_top.png') bottom repeat-x; }
+
+div.goodiesBox p.title { display:block; position:absolute; top:0; width:100%; height:16px; padding:7px 10px 5px 10px; background: rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 0 5px #333; }
+div.goodiesBox p.title span { font-size:14px; font-weight:bold; color:#FFF; text-shadow:1px 1px #555;}
+div.goodiesBox p.title small { padding-top:2px; }
+div.goodiesBox a { color:#FFF; }
+
+div.goodiesBox span.ico_plus_black { bottom:3px; right:3px; }

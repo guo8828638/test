@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>head</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>登陆</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>注册</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>第三方登陆</string>
+		</dict>
+	</array>
+	<key>foot</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>建议反馈</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>图片质量</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>关于我们</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>清除缓存</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>给我们评分</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>友情推荐</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>收藏夹</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>夜间模式</string>
+		</dict>
+	</array>
+</dict>
+</plist>
